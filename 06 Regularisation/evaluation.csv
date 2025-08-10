@@ -1,0 +1,7 @@
+description,name,cv_mean,cv_std,r2_train,r2_test,gen_err
+Poly Lasso on selected features,Pipeline,0.9237,0.0491,0.9656,0.939,0.0266
+Lasso on Selected features,Lasso,0.9463,0.0175,0.9698,0.8812,0.0886
+Ridge on Selected Features,Ridge,0.946,0.0174,0.9701,0.8713,0.0988
+Featue selection on LinearRegression,LinearRegression,0.9455,0.0185,0.9701,0.8676,0.1025
+Baseline LinearRegression,LinearRegression,0.9071,0.0315,0.9736,0.8531,0.1205
+Polynomial Ridge on Selected Features,Pipeline,0.8554,0.1209,0.996,0.832,0.164
